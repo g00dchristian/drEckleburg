@@ -10,7 +10,7 @@ import time
 
 class Eckleburg():
 	def __init__(self, pairs, timeFrame):
-		self.movement=0.00025
+		self.movement=0.025
 		self.TF=timeFrame
 		self.pairs=pairs
 		self.sc=SlackClient(slack.PriceAlertApp('BotUser'))
